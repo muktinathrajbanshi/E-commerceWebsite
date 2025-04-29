@@ -362,7 +362,35 @@ main .section-hero {
   transform: scaleX(-1);
 }
 
+
 /***** End Hero Section *****/
+
+
+/***** Start Extra main section ******/
+
+ .custom-shape-divider-bottom-1745946727 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1745946727 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1745946727 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/***** End Extra main section *******/
 
 /***** Extra Section *****/
 .div-extra {
