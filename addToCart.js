@@ -1,4 +1,5 @@
 import { getCartProductFromLS } from "./getCartProducts";
+import { showToast } from "./showToast";
 import { updateCartValue } from "./updateCartValue";
 
 // -----------------------------------------------------
@@ -37,6 +38,9 @@ export const addToCart = (event, id, stock) => {
 
         localStorage.setItem("cartProductLS", JSON.stringify(updatedCart));
 
+        // show toast when product added to the cart
+        showToast("add", id);
+
     }
     if (existingProd) {
         // alert("There is occured duplicate value");
@@ -52,4 +56,7 @@ export const addToCart = (event, id, stock) => {
 
     // update the cart button value
     updateCartValue(arrLocalStorageProduct);
+
+    // show toast when product added to the cart
+       showToast("add", id);
 };
