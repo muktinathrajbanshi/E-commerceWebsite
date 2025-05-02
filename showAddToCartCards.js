@@ -30,6 +30,7 @@ const showCartProduct = () => {
 
         productClone.querySelector("#cardValue").setAttribute("id", `card${id}`);
         productClone.querySelector(".category").textContent = category;
+        productClone.querySelector(".productName").textContent =name;
         productClone.querySelector(".productImage").src = image;
 
 

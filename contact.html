@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="section-navbar">
+      <section class="top_txt">
+        <div class="head container">
+          <div class="head_text">
+            <p>Free shipping, 30-day return or rufund guarantee.</p>
+          </div>
+          <div class="sing_in_up">
+            <a href="#">SIGN IN</a>
+            <a href="#">SIGN UP</a>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="./public/images/log.png" alt="muktinath eCommerce logo"
+            class="logo"
+            width="80%"
+            height="auto"
+            />
+          </a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="products.html" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+              <li class="nav-item">
+                <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+                  <i class="fa-solid fa-cart-shopping"> 0 </i>
+                </a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- ========== Start contact section ========== -->
+            <div class="section-contact">
+              <div class="container">
+                <h2 class="section-common-heading">Contact Us</h2>
+                <p class="section-common-subheading">
+                  Get in touch with us. We are always here to help you.
+                </p>
+              </div>
+
+              <div class="container grid grid-two--cols">
+                <div class="contact-content">
+                  <form action="https://formspree.io/f/manoejlw" method="POST">
+                    <div class="grid grid-two--cols mb-3">
+                      <div>
+                        <label for="username">username</label>
+                        <input
+                         type="text" 
+                         name="username" 
+                         id="username" 
+                         required 
+                         autocomplete="off" 
+                         placeholder="enter your name"
+                        />
+                      </div>
+
+                      <div>
+                        <label for="email">enter your email</label>
+                        <input 
+                          type="email" 
+                          name="email" 
+                          id="email" 
+                          autocomplete="off" 
+                          required 
+                          placeholder="muktinathrajbanshi786@gmail.com" 
+                        />
+                      </div>
+
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="subject">subject</label>
+                      <input 
+                        type="text" 
+                        name="subject" 
+                        id="subject" 
+                        placeholder="your main title"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="message">message</label>
+                      <textarea 
+                      name="message" 
+                      id="message" 
+                      cols="50" 
+                      rows="8"
+                      placeholder="enter your message" 
+                      ></textarea>
+                    </div>
+
+                    <div>
+                      <button type="submit" class="btn btn-submit">send message</button>
+                    </div>
+
+                  </form>
+                </div>
+
+                <div class="contact-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.437442272073!2d85.32056927506767!3d27.703776976184546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a86d92de5f%3A0xd6a23381c4e35c7e!2sKantipur%20City%20College!5e0!3m2!1sen!2snp!4v1746216328767!5m2!1sen!2snp" 
+                  width="600" 
+                  height="490" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+    <!-- ========== End contact section ========== -->
+
+
+
+    <!-- ========== Start footer section ========== -->
+      <footer class="section-footer">
+        <script src="footer.js"></script>
+      </footer>
+    <!-- ========== End footer section ========== -->
+
+</body>
+</html>
